@@ -1,3 +1,23 @@
+// functions
+
+function AddTwoNumbers(firstNum, secondNum) {
+  return firstNum + secondNum;
+}
+
+AddTwoNumbers(3, 6);
+console.log(AddTwoNumbers(3, 6));
+
+let a = 7;
+let b = 5;
+
+console.log(AddTwoNumbers(a, b));
+
+const AddTwoNumber = (firstNum, secondNum) => {
+  return firstNum + secondNum;
+};
+AddTwoNumbers(9, 7);
+console.log(AddTwoNumbers(9, 7));
+
 let arr = [1, 2, 3, 4, 5];
 let newNumber = 6;
 
@@ -87,7 +107,7 @@ userList.forEach(function (name) {
   console.log(name.userName);
 });
 
-// poniżej inny zapisy funkcji, zamist tradycyjnej jako strzałkową
+// poniżej inny zapisy funkcji, zamiast tradycyjnej jako strzałkową
 
 userList.forEach((name) => {
   console.log(name.userLastName);
